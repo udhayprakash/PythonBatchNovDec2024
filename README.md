@@ -60,4 +60,32 @@ To get the latest changes
     git pull origin main 
 
 To create new branch 
+
     git checkout -b <NEW BRANCH NAME>
+
+
+## Course Completed
+
+[class00 04th Nov 2024 ](zoomrecordinglink)
+
+    00. Dev Setup
+        Installing IDE/Editor
+        Installing Python and local setup
+        Github access, creating project
+        
+[class01 06th Nov 2024 ](zoomrecordinglink)
+
+        git commands
+        markdown syntax
+        daily activity and usage
+    
+    01.Introduction
+        Importance of Python
+        Two versions of Python (2.x & 3.x)
+
+## Next  class
+
+        built-in functions
+        Comment Operator
+        keywords and Identifiers
+        Line continuation and statement separator operators
