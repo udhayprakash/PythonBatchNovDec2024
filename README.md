@@ -83,9 +83,29 @@ To create new branch
         Importance of Python
         Two versions of Python (2.x & 3.x)
 
+[class02 11th Nov 2024 ](zoomrecordinglink)
+
+        PEP 8 Guidelines (https://peps.python.org/pep-0008/)
+        Shebang line
+        Indendation Issue and best practices
+        built-in functions
+        print function
+        Script mode vs interactive mode
+        Jupyter notebook usage
+        Ascii and Unicode characters
+
+        
 ## Next  class
 
-        built-in functions
         Comment Operator
         keywords and Identifiers
         Line continuation and statement separator operators
+
+    02.Basics
+        Arithmetic operations
+            +, -, , /, //, %, *
+            divmod() function
+            Practical Problem solving
+            working with complex numbers
+            abs() function
+            Operator precedence in Arithmetic operations
