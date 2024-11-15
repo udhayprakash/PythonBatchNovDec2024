@@ -94,8 +94,7 @@ To create new branch
         Jupyter notebook usage
         Ascii and Unicode characters
 
-        
-## Next  class
+[class03 13th Nov 2024 ](zoomrecordinglink)
 
         Comment Operator
         keywords and Identifiers
@@ -105,7 +104,27 @@ To create new branch
         Arithmetic operations
             +, -, , /, //, %, *
             divmod() function
+            compound opertions
+
+    Assignments:
+
+        1) try to the sum of digits in a integer number, using divmod()
+        2) If a clock has revolved for 32 times, and is half way, how many days completed
+
+
+## Next  class
+
             Practical Problem solving
             working with complex numbers
             abs() function
             Operator precedence in Arithmetic operations
+
+    String operations
+        Usage of single, double and triple quotes
+        len() function
+        Indexing and Slicing Strings
+        string attributes
+        String formatting: old & new styles, f-strings
+        bytearray() and byte() strings
+        unicode strings
+
