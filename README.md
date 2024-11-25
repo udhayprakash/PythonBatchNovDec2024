@@ -137,6 +137,10 @@ To create new branch
 [class06 22nd Nov 2024 ](zoomrecordinglink)
 
         string attributes
+
+[class07 25th Nov 2024 ](zoomrecordinglink)
+
+        string attributes
         String formatting: old & new styles, f-strings
         bytearray() and byte() strings
         unicode strings
