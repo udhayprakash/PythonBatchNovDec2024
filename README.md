@@ -156,12 +156,14 @@ To create new branch
     03.Language Components
         Relational Operations
         Logical Operations
+
+## Next  class
+
         Boolean Operations
         Bitwise Operations
         Identity Operations
         range() function
 
-## Next  class
 
         Conditional Operations
         Structural Pattern Matching
