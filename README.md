@@ -147,7 +147,8 @@ To create new branch
         String formatting: old & new styles, f-strings
         unicode strings
 
-## Next  class
+[class09 29th Nov 2024 ](zoomrecordinglink)
+
         bytearray() and byte() strings
         Usage of help
         Usage of pydoc
@@ -155,10 +156,15 @@ To create new branch
     03.Language Components
         Relational Operations
         Logical Operations
+
+## Next  class
+
         Boolean Operations
         Bitwise Operations
         Identity Operations
         range() function
+
+
         Conditional Operations
         Structural Pattern Matching
         Loops: for & while, break, continue, pass, sys.exit
