@@ -157,15 +157,18 @@ To create new branch
         Relational Operations
         Logical Operations
 
-## Next  class
+[class10 2nd Dec 2024 ](zoomrecordinglink)
 
         Boolean Operations
         Bitwise Operations
         Identity Operations
+            Dual Memory management Strategy
         range() function
-
-
         Conditional Operations
+
+## Next  class
+
         Structural Pattern Matching
         Loops: for & while, break, continue, pass, sys.exit
         Walrus Operator
+
