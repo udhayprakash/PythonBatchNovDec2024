@@ -166,9 +166,12 @@ To create new branch
         range() function
         Conditional Operations
 
-## Next  class
+[class10 2nd Dec 2024 ](zoomrecordinglink)
 
         Structural Pattern Matching
         Loops: for & while, break, continue, pass, sys.exit
-        Walrus Operator
+    # Assignment: Try these break, continue, pass, on a for loop example
 
+
+## Next  class
+        Walrus Operator
