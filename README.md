@@ -166,12 +166,32 @@ To create new branch
         range() function
         Conditional Operations
 
-[class10 2nd Dec 2024 ](zoomrecordinglink)
+[class11 2nd Dec 2024 ](zoomrecordinglink)
 
         Structural Pattern Matching
         Loops: for & while, break, continue, pass, sys.exit
     # Assignment: Try these break, continue, pass, on a for loop example
 
 
-## Next  class
+[class12 2nd Dec 2024 ](zoomrecordinglink)
+
         Walrus Operator
+
+    04.Exception Handling
+        Exceptions Hierarchy
+        Different types of errors, error vs exception and exception groups
+        Handling single and multiple exceptions
+        raising exceptions
+        asserts
+        traceback
+        exception Groups
+        warnings
+
+## Next  class
+
+    05.Debugging
+        Importance of logical errors
+        Debugging with pydevd
+        Debugging with pdb, ipdb, pudb
+        breakpoint() function
+        PYTHONBREAKPOINT environment variable usage
