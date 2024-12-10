@@ -197,10 +197,13 @@ To create new branch
         PYTHONBREAKPOINT environment variable usage
         post analyses of executed script
 
-## Next  class
+[class14 10th Dec 2024 ](zoomrecordinglink)
 
     06.Collections
         Lists
+
+## Next  class
+
         Tuples & namedtuples
         Sets
         Dictionaries
