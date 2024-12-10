@@ -201,10 +201,10 @@ To create new branch
 
     06.Collections
         Lists
-        Tuples & namedtuples
 
 ## Next  class
 
+        Tuples & namedtuples
         Sets
         Dictionaries
             zip() function
