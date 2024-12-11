@@ -204,16 +204,20 @@ To create new branch
 
 [class14 10th Dec 2024 ](zoomrecordinglink)
 
+        Copy Problem - shallow copy vs deepcopy
         Tuples & namedtuples
+        Immutability & unpacking
         Sets
+            attributes, operations
+
+## Next  class
+
+        fronzensets
         Dictionaries
             zip() function
             workaround for switch case
         Comprehensions
         Working with Iterables - sum(), max(), min()
-
-## Next  class
-
 
     07.Functions
         Functions with & without arguments, keyword arguments
