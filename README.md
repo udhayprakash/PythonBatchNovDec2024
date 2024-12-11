@@ -202,7 +202,7 @@ To create new branch
     06.Collections
         Lists
 
-## Next  class
+[class14 10th Dec 2024 ](zoomrecordinglink)
 
         Tuples & namedtuples
         Sets
@@ -211,3 +211,22 @@ To create new branch
             workaround for switch case
         Comprehensions
         Working with Iterables - sum(), max(), min()
+
+## Next  class
+
+
+    07.Functions
+        Functions with & without arguments, keyword arguments
+        Functions with Different return types and unpacking
+        Functions with with Default arguments
+        variadic functions : variable arguments and variable keyword arguments
+        Functions with keyword only arguments
+        Scoping: Global vs Local
+            call by reference
+            call by value
+        Partial Functions
+        Anonymous(Lambda) Functions
+        Higher order functions: map(), filter(), functool.reduce()
+        Recursions and recursions limit
+        inner functions
+        closures
