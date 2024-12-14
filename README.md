@@ -202,7 +202,7 @@ To create new branch
     06.Collections
         Lists
 
-[class14 10th Dec 2024 ](zoomrecordinglink)
+[class15 11th Dec 2024 ](zoomrecordinglink)
 
         Copy Problem - shallow copy vs deepcopy
         Tuples & namedtuples
@@ -210,7 +210,7 @@ To create new branch
         Sets
             attributes, operations
 
-## Next  class
+[class16 13th Dec 2024 ](zoomrecordinglink)
 
         fronzensets
         Dictionaries
@@ -218,6 +218,9 @@ To create new branch
             workaround for switch case
         Comprehensions
         Working with Iterables - sum(), max(), min()
+
+
+## Next  class
 
     07.Functions
         Functions with & without arguments, keyword arguments
