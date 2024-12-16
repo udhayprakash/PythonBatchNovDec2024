@@ -219,8 +219,7 @@ To create new branch
         Comprehensions
         Working with Iterables - sum(), max(), min()
 
-
-## Next  class
+[class17 16th Dec 2024 ](zoomrecordinglink)
 
     07.Functions
         Functions with & without arguments, keyword arguments
@@ -231,6 +230,10 @@ To create new branch
         Scoping: Global vs Local
             call by reference
             call by value
+
+
+## Next  class
+
         Partial Functions
         Anonymous(Lambda) Functions
         Higher order functions: map(), filter(), functool.reduce()
