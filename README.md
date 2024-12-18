@@ -231,12 +231,44 @@ To create new branch
             call by reference
             call by value
 
-
-## Next  class
+[class18 17th Dec 2024 ](zoomrecordinglink)
 
         Partial Functions
         Anonymous(Lambda) Functions
         Higher order functions: map(), filter(), functool.reduce()
         Recursions and recursions limit
+
+
+[class19 18th Dec 2024 ](zoomrecordinglink)
+
         inner functions
         closures
+
+    08.Decorator Design Pattern
+        Necessity
+        function Decorator
+        Practical Examples
+        syntactic sugar for decorators
+        multiple decorators on same function
+        decorators with arguments
+        functools - wrap, lru_cache
+        class decorator
+
+
+## Next  class
+
+
+    09.Iterables, Iterators, Generators and co-routines
+        Iterables
+            different ways of extracting values from iterables
+        Iterators
+            iter() protocol
+            itertools module
+        Generators
+            yield vs return
+            function vs Generator
+            Generator pipelining
+            Generator Expression
+        Coroutine
+            Generator vs Coroutine
+            coroutine pipelining
