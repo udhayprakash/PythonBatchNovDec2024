@@ -255,8 +255,7 @@ To create new branch
         class decorator
 
 
-## Next  class
-
+[class20 19th Dec 2024 ](zoomrecordinglink)
 
     09.Iterables, Iterators, Generators and co-routines
         Iterables
@@ -264,11 +263,15 @@ To create new branch
         Iterators
             iter() protocol
             itertools module
+
+## Next  class
+
         Generators
             yield vs return
             function vs Generator
             Generator pipelining
             Generator Expression
+
         Coroutine
             Generator vs Coroutine
             coroutine pipelining
