@@ -264,13 +264,16 @@ To create new branch
             iter() protocol
             itertools module
 
-## Next  class
+[class21 20th Dec 2024 ](zoomrecordinglink)
 
         Generators
             yield vs return
             function vs Generator
             Generator pipelining
             Generator Expression
+
+
+## Next  class
 
         Coroutine
             Generator vs Coroutine
