@@ -64,6 +64,38 @@ To create new branch
     git checkout -b <NEW BRANCH NAME>
 
 
+## Virtual Environment
+
+    Isolated environment 
+
+    why needed
+        - same system, multiple projects
+            - different python versions 
+            - same python verison, but differenet module versions
+
+    How to create Virtual Environment 
+        - Virtualenv
+        - venv
+        - pipenv
+        - poetry 
+        - uv
+
+    Using Virtualenv
+        
+        Install
+            pip install virtualenv
+        
+        create virtual environment
+            python -m virtualenv .venv
+        
+        activate virtual environment
+            linux
+                source .venv/bin/activate
+
+            windows
+                .venv/script/activate
+
+
 ## Course Completed
 
 [class00 04th Nov 2024 ](zoomrecordinglink)
@@ -272,9 +304,24 @@ To create new branch
             Generator pipelining
             Generator Expression
 
-
-## Next  class
+[class22 23rd Dec 2024 ](zoomrecordinglink)
 
         Coroutine
             Generator vs Coroutine
             coroutine pipelining
+
+
+## Next  class
+
+    10.Modules
+        Basic Modules
+            - math, sys, argparse, os, shutil, pathlib, subprocess, getpass
+        time related
+            - time, datetime, pytz, timeit, calendar
+        concurrency
+            - Multiprocessing, Multithreading
+        others
+            - random, collections, atexit, contextlib, base64, turtle, tqdm
+
+        create user-defined module
+        creating user-defined package
