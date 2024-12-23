@@ -311,11 +311,13 @@ To create new branch
             coroutine pipelining
 
 
-## Next  class
-
     10.Modules
         Basic Modules
-            - math, sys, argparse, os, shutil, pathlib, subprocess, getpass
+            - math, sys, argparse
+            
+## Next  class
+            
+            os, shutil, pathlib, subprocess, getpass
         time related
             - time, datetime, pytz, timeit, calendar
         concurrency
