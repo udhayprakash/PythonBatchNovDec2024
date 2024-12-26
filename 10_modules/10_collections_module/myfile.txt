@@ -1,0 +1,215 @@
+Epoch Converter
+Epoch & Unix Timestamp Conversion Tools
+ 
+
+The current Unix epoch time is  1735226898
+ 
+
+Convert epoch to human-readable date and vice versa
+1735223658.5634456
+ Timestamp to Human date  [batch convert]
+Supports Unix timestamps in seconds, milliseconds, microseconds and nanoseconds.
+Assuming that this timestamp is in seconds:
+GMT: Thursday, December 26, 2024 2:34:18.563 PM
+Your time zone: Thursday, December 26, 2024 2:34:18.563 PM GMT+00:00
+Relative: A minute ago
+ 
+Yr	Mon	Day
+2024
+-	
+12
+-	
+26
+ 
+Hr	Min	Sec
+2
+ : 	
+34
+ : 	
+35
+
+PM
+
+GMT
+ 
+ 
+Human date to Timestamp
+
+ 
+
+
+Thu, 26 Dec 2024 14:34:35 GMT
+ Human date to Timestamp  [batch convert]
+Input format: RFC 2822, D-M-Y, M/D/Y, Y-M-D, etc. Strip 'GMT' to convert to local time.
+ 
+Prefer a 24-hour clock? Go to preferences.
+Press c to clear all forms.
+
+Epoch dates for the start and end of the year/month/day
+Show start & end of year month day
+
+Yr	Mon	Day	
+2024
+-	
+12
+-	
+26
+ 	
+GMT
+ 
+ 
+Convert  [list months & years]
+
+
+Convert seconds to days, hours and minutes
+90061
+ Seconds to days, hours, minutes
+ 
+
+What is epoch time?
+The Unix epoch (or Unix time or POSIX time or Unix timestamp) is the number of seconds that have elapsed since January 1, 1970 (midnight UTC/GMT), not counting leap seconds (in ISO 8601: 1970-01-01T00:00:00Z). Literally speaking the epoch is Unix time 0 (midnight 1/1/1970), but 'epoch' is often used as a synonym for Unix time. Some systems store epoch dates as a signed 32-bit integer, which might cause problems on January 19, 2038 (known as the Year 2038 problem or Y2038). The converter on this page converts timestamps in seconds (10-digit), milliseconds (13-digit) and microseconds (16-digit) to readable dates.
+
+Human-readable time 	Seconds
+1 hour	3600 seconds
+1 day	86400 seconds
+1 week	604800 seconds
+1 month (30.44 days) 	2629743 seconds
+1 year (365.24 days) 	 31556926 seconds
+How to get the current epoch time in ...
+PHP	time() More PHP
+Python	import time; time.time() Source
+Ruby	Time.now (or Time.new). To display the epoch: Time.now.to_i
+Perl	time More Perl
+Java	long epoch = System.currentTimeMillis()/1000; Returns epoch in seconds.
+C#	DateTimeOffset.Now.ToUnixTimeSeconds() (.NET Framework 4.6+/.NET Core), older versions: var epoch = (DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalSeconds;
+Objective-C	[[NSDate date] timeIntervalSince1970]; (returns double) or NSString *currentTimestamp = [NSString stringWithFormat:@"%f", [[NSDate date] timeIntervalSince1970]];
+C++11	double now = std::chrono::duration_cast<std::chrono::seconds> (std::chrono::system_clock::now().time_since_epoch()).count();
+Lua	epoch = os.time([date])
+VBScript/ASP	See the examples
+AutoIT	_DateDiff('s', "1970/01/01 00:00:00", _NowCalc())
+Delphi	Epoch := DateTimetoUnix(Now); Tested in Delphi 2010.
+Dart	DateTime.now().microsecondsSinceEpoch
+R	as.numeric(Sys.time())
+Erlang/OTP	erlang:system_time(seconds). (version 18+), older versions: calendar:datetime_to_gregorian_seconds(calendar:universal_time())-719528*24*3600.
+MySQL	SELECT unix_timestamp(now()) More MySQL examples
+PostgreSQL	SELECT extract(epoch FROM now());
+SQLite	SELECT strftime('%s', 'now');
+Oracle PL/SQL	SELECT (CAST(SYS_EXTRACT_UTC(SYSTIMESTAMP) AS DATE) - TO_DATE('01/01/1970','DD/MM/YYYY')) * 24 * 60 * 60 FROM DUAL;
+SQL Server	SELECT DATEDIFF(s, '1970-01-01 00:00:00', GETUTCDATE())
+IBM Informix	SELECT dbinfo('utc_current') FROM sysmaster:sysdual;
+JavaScript	Math.floor(new Date().getTime()/1000.0) The getTime method returns the time in milliseconds.
+Visual FoxPro	DATETIME() - {^1970/01/01 00:00:00} Warning: time zones not handled correctly
+Go	time.Now().Unix() More Go 
+Adobe ColdFusion	<cfset epochTime = left(getTickcount(), 10)>
+Tcl/Tk	clock seconds
+Unix/Linux Shell	date +%s
+Solaris	/usr/bin/nawk 'BEGIN {print srand()}' Solaris doesn't support date +%s, but the default seed value for nawk's random-number generator is the number of seconds since the epoch.
+PowerShell	[int][double]::Parse((Get-Date (get-date).touniversaltime() -UFormat %s))
+Other OS's	Command line: perl -e "print time" (If Perl is installed on your system)
+
+Convert from human-readable date to epoch
+PHP	strtotime("15 November 2018") (converts most English date texts) or:
+date_create('11/15/2018')->format('U') (using DateTime class) More PHP
+Python	import calendar, time; calendar.timegm(time.strptime('2000-01-01 12:34:00', '%Y-%m-%d %H:%M:%S'))
+Ruby	Time.local(year, month, day, hour, minute, second, usec ) (or Time.gm for GMT/UTC input). To display add .to_i
+Perl	Use the Perl Epoch routines
+Java	long epoch = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").parse("01/01/1970 01:00:00").getTime() / 1000; Timestamp in seconds, remove '/1000' for milliseconds.
+VBScript/ASP	DateDiff("s", "01/01/1970 00:00:00", time field) More ASP
+AutoIT	_DateDiff('s', "1970/01/01 00:00:00", "YYYY/MM/DD HH:MM:SS")
+Delphi	Epoch := DateTimeToUnix(StrToDateTime(myString));
+C	Use the C Epoch Converter routines
+R	as.numeric(as.POSIXct("YYYY-MM-dd HH:mm:ss", tz = "GMT", origin="1970-01-01")) The origin parameter is optional
+Go	Example code 
+Rust	SystemTime::now().duration_since(SystemTime::UNIX_EPOCH) 
+Adobe ColdFusion	int(parseDateTime(datetime).getTime()/1000);
+MySQL	SELECT unix_timestamp(time) Time format: YYYY-MM-DD HH:MM:SS or YYMMDD or YYYYMMDD
+More on using Epoch timestamps with MySQL
+PostgreSQL	SELECT extract(epoch FROM date('2000-01-01 12:34'));
+With timestamp: SELECT EXTRACT(EPOCH FROM TIMESTAMP WITH TIME ZONE '2018-02-16 20:38:40-08');
+With interval: SELECT EXTRACT(EPOCH FROM INTERVAL '5 days 3 hours');
+SQLite	SELECT strftime('%s',timestring);
+SQL Server	SELECT DATEDIFF(s, '1970-01-01 00:00:00', time field)
+JavaScript	Use the JavaScript Date object
+Unix/Linux Shell	date +%s -d"Jan 1, 1980 00:00:01" Replace '-d' with '-ud' to input in GMT/UTC time.
+Convert from epoch to human-readable date
+PHP	date(output format, epoch); Output format example: 'r' = RFC 2822 date, more PHP examples
+Python	import time; time.strftime("%a, %d %b %Y %H:%M:%S +0000", time.localtime(epoch)) Replace time.localtime with time.gmtime for GMT time. Or using datetime: import datetime; datetime.datetime.utcfromtimestamp(epoch).replace(tzinfo=datetime.timezone.utc)
+Ruby	Time.at(epoch)
+C#	private string epoch2string(int epoch) {
+return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(epoch).ToShortDateString(); }
+Perl	Use the Perl Epoch routines
+Java	String date = new java.text.SimpleDateFormat("MM/dd/yyyy HH:mm:ss").format(new java.util.Date (epoch*1000)); Epoch in seconds, remove '*1000' for milliseconds.
+Lua	datestring = os.date([format[,epoch]])
+VBScript/ASP	DateAdd("s", epoch, "01/01/1970 00:00:00") More ASP
+AutoIT	_DateAdd("s", $EpochSeconds , "1970/01/01 00:00:00")
+Dart	DateTime.fromMicrosecondsSinceEpoch(epoch)
+Delphi	myString := DateTimeToStr(UnixToDateTime(Epoch)); Where Epoch is a signed integer.
+C	Use the C Epoch Converter routines
+Objective-C	NSDate * myDate = [NSDate dateWithTimeIntervalSince1970:epoch]; NSLog(@"%@", date);
+R	as.POSIXct(epoch, origin="1970-01-01", tz="GMT")
+Go	Example code 
+Adobe ColdFusion	DateAdd("s",epoch,"1/1/1970");
+MySQL	FROM_UNIXTIME(epoch, optional output format) Default output format is YYY-MM-DD HH:MM:SS. If you need support for negative timestamps: DATE_FORMAT(DATE_ADD(FROM_UNIXTIME(0), interval -315619200 second),"%Y-%m-%d") (replace -315619200 with epoch) More MySQL
+PostgreSQL	PostgreSQL version 8.1 and higher: SELECT to_timestamp(epoch); Source Older versions: SELECT TIMESTAMP WITH TIME ZONE 'epoch' + epoch * INTERVAL '1 second';
+SQLite	SELECT datetime(epoch_to_convert, 'unixepoch'); or local timezone: SELECT datetime(epoch_to_convert, 'unixepoch', 'localtime');
+Oracle PL/SQL	SELECT to_date('01-JAN-1970','dd-mon-yyyy')+(1526357743/60/60/24) from dual
+Replace 1526357743 with epoch.
+SQL Server	DATEADD(s, epoch, '1970-01-01 00:00:00')
+IBM Informix	SELECT dbinfo('utc_to_datetime',epoch) FROM sysmaster:sysdual;
+Microsoft Excel / LibreOffice Calc	=(A1 / 86400) + 25569 Format the result cell for date/time, the result will be in GMT time (A1 is the cell with the epoch number). For other time zones: =((A1 +/- time zone adjustment) / 86400) + 25569.
+Crystal Reports	DateAdd("s", {EpochTimeStampField}-14400, #1/1/1970 00:00:00#) -14400 used for Eastern Standard Time. See Time Zones.
+JavaScript	Use the JavaScript Date object
+Tcl/Tk	clock format 1325376000 Documentation
+MATLAB	datestr(719529+TimeInSeconds/86400,'dd-mmm-yyyy HH:MM:SS')
+IBM PureData System for Analytics	select 996673954::int4::abstime::timestamp;
+Unix/Linux Shell	date -d @1520000000 Replace 1520000000 with your epoch, needs recent version of 'date'. Replace '-d' with '-ud' for GMT/UTC time.
+Mac OS X	date -j -r 1520000000
+PowerShell	Function get-epochDate ($epochDate) { [timezone]::CurrentTimeZone.ToLocalTime(([datetime]'1/1/1970').AddSeconds($epochDate)) }, then use: get-epochDate 1520000000. Works for Windows PowerShell v1 and v2
+Other OS's	Command line: perl -e "print scalar(localtime(epoch))" (If Perl is installed) Replace 'localtime' with 'gmtime' for GMT/UTC time.
+
+Thanks to everyone who sent me corrections and updates!
+
+More date related programming examples: What's the current week number? - What's the current day number?
+
+Please note: All tools on this page are based on the date & time settings of your computer and use JavaScript to convert times. Some browsers use the current DST (Daylight Saving Time) rules for all dates in history. JavaScript does not support leap seconds.
+
+Pages
+Home
+Preferences
+Toggle theme Dark theme
+Tools 
+Epoch converter
+Batch converter
+Time zone converter
+Timestamp list
+LDAP converter
+WebKit/Chrome timestamp
+Unix hex timestamp
+Cocoa Core Data timestamp
+Mac HFS+ timestamp
+SAS timestamp
+Seconds/days since year 0
+Bin/Oct/Hex converter
+Countdown in seconds
+Epoch clock
+Date and Time 
+Week numbers
+Weeks by year
+Day numbers
+Days by year
+Years/leap years
+Calculate the difference
+   between two dates
+Programming 
+More 
+Comments & questions
+Este sitio en Español
+Charset Tools 
+
+
+
+Home - Sitemap - Privacy - Disclaimer - Contact
+© 2024 Epoch Converter by Misja.com
+Jump to top
+Privacy and cookie settings
+Managed by Google. Complies with IAB TCF. CMP ID: 300

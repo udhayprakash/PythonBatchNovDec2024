@@ -1,0 +1,10 @@
+──────────────────  ───────────────  ──────────────────  ────────────── ───────────
+     Function       Copies metadata  Copies permissions  Can use buffer Dest dir OK
+──────────────────  ───────────────  ──────────────────  ────────────── ───────────
+shutil.copy               No                 Yes             No             Yes
+shutil.copyfile           No                 No              No             No
+shutil.copy2              Yes                Yes             No             Yes
+shutil.copyfileobj        No                 No              Yes            No
+──────────────────  ───────────────  ──────────────────  ────────────── ───────────
+
+shutil.move - To move file from one place to another
