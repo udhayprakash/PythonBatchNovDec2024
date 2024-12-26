@@ -20,8 +20,7 @@ def get_execution_result(cmd):
     # cmd = "ifconfig"
     p = subprocess.Popen(
             cmd, 
-            shell=True, 
-            stdout=subprocess.PIPE, stderr=subprocess.PIPE
+            shell=False, stdout=subprocess.PIPE, stderr=subprocess.PIPE
     )
 
     output, err = p.communicate()
