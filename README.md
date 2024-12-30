@@ -361,3 +361,6 @@ To create new branch
         pdf files
         config files : .ini, .cfg
         pyw files
+
+
+## Next  class
