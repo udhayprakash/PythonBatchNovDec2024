@@ -329,7 +329,7 @@ To create new branch
             - random, collections, atexit, contextlib, base64
 
 
-## Next  class
+[class25 30th Dec 2024 ](zoomrecordinglink)
 
         create user-defined module
         creating user-defined package
@@ -353,3 +353,6 @@ To create new branch
         pdf files
         config files : .ini, .cfg
         pyw files
+
+
+## Next  class
