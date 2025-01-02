@@ -3,6 +3,21 @@
 A repository with all the classes material for becoming a python developer
 
 
+## local setup in windows
+    Install 
+    
+        git for windows
+    
+        vs code
+    
+        python
+            microsoft store -- python3 (version)
+
+
+    git clone https://github.com/udhayprakash/PythonBatchNovDec2024.git
+    
+    first time you need to pass the credentials, when running
+
 ## Git commands
 
 To clone a repository (not needed in codespace, needed for local development):
@@ -94,6 +109,15 @@ To create new branch
 
             windows
                 .venv/script/activate
+
+    Using Poetry
+        pip install -U pip
+        pip install poetry
+        python -m poetry init
+        python -m poetry shell
+
+        pip install poetry
+        poetry add pandas        
 
 
 ## Course Completed
@@ -342,14 +366,24 @@ To create new branch
     11.File Operations
         flat files
 
-## Next  class
-
+[class26 30th Dec 2024 ](zoomrecordinglink)
         Non-flat files
             pickle
             shelve
             xml
             csv
+
+[class26 27th Dec 2024 ](zoomrecordinglink)
+
+            windows local setup
+            poetry installation
+            Troubleshooting experince
+            csv
             dat
+            tsv
+
+## Next  class
+
             xls/xlsx
             json
             yaml
@@ -362,5 +396,62 @@ To create new branch
         config files : .ini, .cfg
         pyw files
 
+    12.Logging
+        Simple logging
+        configuring log file
+        formatting logs and adding timestamp
+        working with file handler and stream hanlder
+        configuring multiple handlers
+        color logging
+        Rotating logger
 
-## Next  class
+    13. OOP
+        Importance of OOP
+        Instantiation and managing attributes
+        constructor and Importance of self
+        instance and class variables
+        Encapsulation
+        MRO, Single and multiple inheritance, composition
+        Method Overwriting, Operator Overloading
+        instance, class and static methods
+        property decorator
+        Dunder(magic) methods
+        reprlib module
+        creating context manager class
+        Dataclasses
+        Abstract Classes
+
+    14. Code Quality
+        typing
+        Doctest
+        unittest
+
+    15. Regular Expressions
+        re module
+        compiling regex objects
+        match & search
+        find & finditer
+        regex Flags
+        Greedy & Non-Greedy patterns
+        findall & finditer
+        sub and subn
+        regex Flags
+        groups and groupdicts
+        Pearl-style regexes
+        Realworld Problem (log analyses, email Validation, etc)
+
+    16. Databases
+        db files - sqlite3
+        Relational DB - MySQL
+        Non-Relational DB - mongoDB
+
+    17. Web Services
+        consuming REST API
+        scraping web pages
+        urllib, requests
+
+    18. Data Science
+        statistics
+        Numpy
+        Pandas
+        Matplotlib
