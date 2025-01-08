@@ -373,7 +373,7 @@ To create new branch
             xml
             csv
 
-[class26 27th Dec 2024 ](zoomrecordinglink)
+[class27 02nd Jan 2024 ](zoomrecordinglink)
 
             windows local setup
             poetry installation
@@ -381,6 +381,18 @@ To create new branch
             csv
             dat
             tsv
+
+[class28 06th Jan 2024 ](zoomrecordinglink)
+
+    12.Logging
+        Simple logging
+        configuring log file
+        formatting logs and adding timestamp
+        working with file handler and stream hanlder
+        configuring multiple handlers
+        color logging
+        Rotating logger
+
 
 ## Next  class
 
@@ -395,15 +407,6 @@ To create new branch
         pdf files
         config files : .ini, .cfg
         pyw files
-
-    12.Logging
-        Simple logging
-        configuring log file
-        formatting logs and adding timestamp
-        working with file handler and stream hanlder
-        configuring multiple handlers
-        color logging
-        Rotating logger
 
     13. OOP
         Importance of OOP
