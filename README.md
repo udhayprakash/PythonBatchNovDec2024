@@ -411,7 +411,7 @@ To create new branch
         Realworld Problem (log analyses, email Validation, etc)
 
 
-[class29 08th Jan 2024 ](zoomrecordinglink)
+[class30 10th Jan 2024 ](zoomrecordinglink)
 
 
     14. OOP
