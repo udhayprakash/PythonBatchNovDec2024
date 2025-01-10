@@ -394,21 +394,25 @@ To create new branch
         Rotating logger
 
 
+[class29 08th Jan 2024 ](zoomrecordinglink)
+
+    13. Regular Expressions
+        re module
+        compiling regex objects
+        match & search
+        find & finditer
+        regex Flags
+        Greedy & Non-Greedy patterns
+        findall & finditer
+        sub and subn
+        regex Flags
+        groups and groupdicts
+        Pearl-style regexes
+        Realworld Problem (log analyses, email Validation, etc)
+
 ## Next  class
 
-            xls/xlsx
-            json
-            yaml
-            parquet
-            avro
-        Image files
-            displaying, creating and editing images
-        zipping files: .zip, .tar
-        pdf files
-        config files : .ini, .cfg
-        pyw files
-
-    13. OOP
+    14. OOP
         Importance of OOP
         Instantiation and managing attributes
         constructor and Importance of self
@@ -424,24 +428,25 @@ To create new branch
         Dataclasses
         Abstract Classes
 
+
+        Structured Files
+            xls/xlsx
+            json
+            yaml
+            parquet
+            avro
+        Image files
+            displaying, creating and editing images
+        zipping files: .zip, .tar
+        pdf files
+        config files : .ini, .cfg
+        pyw files
+
+
     14. Code Quality
         typing
         Doctest
         unittest
-
-    15. Regular Expressions
-        re module
-        compiling regex objects
-        match & search
-        find & finditer
-        regex Flags
-        Greedy & Non-Greedy patterns
-        findall & finditer
-        sub and subn
-        regex Flags
-        groups and groupdicts
-        Pearl-style regexes
-        Realworld Problem (log analyses, email Validation, etc)
 
     16. Databases
         db files - sqlite3
