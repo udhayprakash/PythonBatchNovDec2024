@@ -421,7 +421,8 @@ To create new branch
         instance and class variables
         Encapsulation
 
-## Next  class
+
+[class31 13th Jan 2024 ](zoomrecordinglink)
 
         MRO, Single and multiple inheritance, composition
         Method Overwriting, Operator Overloading
@@ -432,6 +433,14 @@ To create new branch
         creating context manager class
         Dataclasses
         Abstract Classes
+
+## Next  class
+
+
+    14. Code Quality
+        typing
+        Doctest
+        unittest
 
 
         Structured Files
@@ -447,11 +456,6 @@ To create new branch
         config files : .ini, .cfg
         pyw files
 
-
-    14. Code Quality
-        typing
-        Doctest
-        unittest
 
     16. Databases
         db files - sqlite3
