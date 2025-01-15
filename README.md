@@ -431,30 +431,24 @@ To create new branch
         Dunder(magic) methods
         reprlib module
         creating context manager class
+
+
+[class32 15th Jan 2024 ](zoomrecordinglink)
+
+
         Dataclasses
         Abstract Classes
+        
+    14. Code Quality
+        pylint
+        Autopep8
+        typing
+
 
 ## Next  class
 
-
-    14. Code Quality
-        typing
         Doctest
         unittest
-
-
-        Structured Files
-            xls/xlsx
-            json
-            yaml
-            parquet
-            avro
-        Image files
-            displaying, creating and editing images
-        zipping files: .zip, .tar
-        pdf files
-        config files : .ini, .cfg
-        pyw files
 
 
     16. Databases
