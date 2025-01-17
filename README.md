@@ -446,11 +446,14 @@ To create new branch
         typing
 
 
-## Next  class
+[class33 17th Jan 2024 ](zoomrecordinglink)
 
         Doctest
         unittest
+        Behave
+        property-Based testing
 
+## Next  class
 
     16. Databases
         db files - sqlite3
