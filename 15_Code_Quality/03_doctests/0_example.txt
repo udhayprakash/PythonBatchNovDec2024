@@ -1,0 +1,8 @@
+pydoc
+
+
+
+Alternatively, the doctest can be done
+from commandline using
+   python -m doctest scriptname.py
+   python -m doctest -v d_example.py
