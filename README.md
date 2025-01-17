@@ -357,7 +357,6 @@ To create new branch
 
         create user-defined module
         creating user-defined package
-
         packaging
         creating the wheel files, tar files
         publishing with twine
@@ -367,11 +366,13 @@ To create new branch
         flat files
 
 [class26 30th Dec 2024 ](zoomrecordinglink)
+
         Non-flat files
             pickle
             shelve
             xml
             csv
+
 
 [class27 02nd Jan 2024 ](zoomrecordinglink)
 
