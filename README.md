@@ -455,10 +455,14 @@ To create new branch
 [class34 21st Jan 2024 ](zoomrecordinglink)
 
         unittest
-        Behave
-        property-Based testing
+        pytest
 
-    
+    AWS Cloud
+
+        AWS Development setup 
+        AWS CLI setup and usage
+        AWS IAM 
+            creation of Users, Groups, and assiging policies    
 
 
 ## Next  class
