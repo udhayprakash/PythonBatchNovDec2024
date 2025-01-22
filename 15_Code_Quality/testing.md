@@ -4,7 +4,6 @@
     Tools:
 
         unittest: Python's built-in testing framework.
-
         pytest: A popular third-party testing framework with simpler syntax and powerful features.
 
 
@@ -76,5 +75,3 @@
     Tools:
 
         mutmut: A mutation testing tool for Python.
-
-

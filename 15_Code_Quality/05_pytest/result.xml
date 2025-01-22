@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+	<testsuite name="pytest" errors="0" failures="0" skipped="0" tests="11" time="0.028" timestamp="2025-01-21T14:30:39.133332+00:00" hostname="codespaces-169efa">
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_add" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_square" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_cube" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_case01" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_uppercase" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_reversed" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test" name="test_some_primes" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test.TestClass01" name="test_case01" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.0_example_test.TestClass01" name="test_case02" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.b_raises_test" name="test_case01" time="0.000" />
+		<testcase classname="15_Code_Quality.05_pytest.b_raises_test" name="test_case02" time="0.000" />
+	</testsuite>
+</testsuites>
