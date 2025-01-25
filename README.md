@@ -476,8 +476,12 @@ To create new branch
 
 [class36 25nd Jan 2024 ](zoomrecordinglink)
         
+        Usage of Google Collab
         Numpy
+
+        Usage of Kaggle
         Pandas
+        
         Matplotlib
 
 
