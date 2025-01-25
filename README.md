@@ -457,12 +457,21 @@ To create new branch
         unittest
         pytest
 
-    AWS Cloud
+    16. AWS Cloud
 
         AWS Development setup 
         AWS CLI setup and usage
         AWS IAM 
             creation of Users, Groups, and assiging policies    
+
+
+[class35 22nd Jan 2024 ](zoomrecordinglink)
+
+    17. Data Science
+        statistics
+        Numpy
+        Pandas
+        Matplotlib
 
 
 ## Next  class
@@ -476,9 +485,3 @@ To create new branch
         consuming REST API
         scraping web pages
         urllib, requests
-
-    18. Data Science
-        statistics
-        Numpy
-        Pandas
-        Matplotlib
