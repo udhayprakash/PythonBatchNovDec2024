@@ -474,6 +474,13 @@ To create new branch
         Matplotlib
 
 
+[class36 25nd Jan 2024 ](zoomrecordinglink)
+        
+        Numpy
+        Pandas
+        Matplotlib
+
+
 ## Next  class
 
     16. Databases
