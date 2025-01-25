@@ -474,7 +474,22 @@ To create new branch
         Matplotlib
 
 
+[class36 25nd Jan 2024 ](zoomrecordinglink)
+        
+        Usage of Google Collab
+        Numpy
+
+        Usage of Kaggle
+        Pandas 
+            series
+
 ## Next  class
+
+        Pandas dataframes
+        Matplotlib
+        Polars
+
+
 
     16. Databases
         db files - sqlite3
