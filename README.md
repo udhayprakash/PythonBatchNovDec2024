@@ -480,12 +480,16 @@ To create new branch
         Numpy
 
         Usage of Kaggle
-        Pandas
-        
-        Matplotlib
-
+        Pandas 
+            series
 
 ## Next  class
+
+        Pandas dataframes
+        Matplotlib
+        Polars
+
+
 
     16. Databases
         db files - sqlite3
