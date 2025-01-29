@@ -480,7 +480,6 @@ To create new branch
         statistics
         Numpy
         Pandas
-        Matplotlib
 
 
 [class36 25nd Jan 2024 ](zoomrecordinglink)
@@ -502,21 +501,17 @@ To create new branch
         Matplotlib
         Polars
 
-
-
     16. Databases
         db files - sqlite3
-        Relational DB - MySQL
-        Non-Relational DB - mongoDB
 
 ## Next  class
+
+        Non-Relational DB - mongoDB
 
     17. Web Services
         consuming REST API
         scraping web pages
         urllib, requests
-
-
 
 # Setup 
 
@@ -524,4 +519,3 @@ To create new branch
     - Windows local setup
     - google collab
     - kaggle notebooks
-
