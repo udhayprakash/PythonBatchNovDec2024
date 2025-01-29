@@ -483,12 +483,13 @@ To create new branch
         Pandas 
             series
 
-## Next  class
+[class36 25nd Jan 2024 ](zoomrecordinglink)
 
         Pandas dataframes
         Matplotlib
         Polars
 
+## Next  class
 
 
     16. Databases
