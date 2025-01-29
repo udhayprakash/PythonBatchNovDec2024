@@ -95,7 +95,7 @@ To create new branch
         - poetry 
         - uv
 
-    Using Virtualenv
+    1) Using Virtualenv
         
         Install
             pip install virtualenv
@@ -110,11 +110,20 @@ To create new branch
             windows
                 .venv/script/activate
 
-    Using Poetry
-        pip install -U pip
-        pip install poetry
+    2) Using Poetry
+        pip install -U pip poetry
+
+        python -m poetry config virtualenvs.create true
+        python -m poetry config virtualenvs.in-project true
+        python -m poetry config installer.parallel true
+        python -m poetry config installer.max-workers 5
+        
         python -m poetry init
-        python -m poetry shell
+        #python -m poetry shell
+        python -m poetry install --no-root
+
+        python -m poetry env info   
+        venvpath/python/Scripts/activate
 
         pip install poetry
         poetry add pandas        
@@ -471,7 +480,6 @@ To create new branch
         statistics
         Numpy
         Pandas
-        Matplotlib
 
 
 [class36 25nd Jan 2024 ](zoomrecordinglink)
@@ -483,21 +491,31 @@ To create new branch
         Pandas 
             series
 
-[class36 25nd Jan 2024 ](zoomrecordinglink)
+[class37 25nd Jan 2024 ](zoomrecordinglink)
 
         Pandas dataframes
+
+
+[class38 29th Jan 2024 ](zoomrecordinglink)
+
         Matplotlib
         Polars
 
-## Next  class
-
-
     16. Databases
         db files - sqlite3
-        Relational DB - MySQL
+
+## Next  class
+
         Non-Relational DB - mongoDB
 
     17. Web Services
         consuming REST API
         scraping web pages
         urllib, requests
+
+# Setup 
+
+    - Github Codespaces
+    - Windows local setup
+    - google collab
+    - kaggle notebooks
