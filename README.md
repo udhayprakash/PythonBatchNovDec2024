@@ -521,14 +521,13 @@ To create new branch
             consuming REST API
             creating REST API
                 flask
-                FastAPI
-
-        webscraping
-            scraping web pages
 
 ## Next  class
 
-# Setup 
+    doubts
+
+
+# development Setups worked
 
     - Github Codespaces
     - Windows local setup
