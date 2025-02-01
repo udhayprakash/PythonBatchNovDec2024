@@ -504,14 +504,29 @@ To create new branch
     16. Databases
         db files - sqlite3
 
-## Next  class
+[class39 01st Feb 2024 ](zoomrecordinglink)
 
         Non-Relational DB - mongoDB
 
     17. Web Services
-        consuming REST API
-        scraping web pages
-        urllib, requests
+        FTP
+        RPC
+            xmlRPC
+            jsonRPC
+            gRPC (google RPC)
+        HTTP
+            SimpleHTTPServer
+                Exposing to public network using ngrok
+        REST API
+            consuming REST API
+            creating REST API
+                flask
+                FastAPI
+
+        webscraping
+            scraping web pages
+
+## Next  class
 
 # Setup 
 
