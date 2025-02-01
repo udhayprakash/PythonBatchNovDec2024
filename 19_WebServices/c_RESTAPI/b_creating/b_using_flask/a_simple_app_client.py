@@ -2,7 +2,7 @@ import requests
 from pprint import pp
 
 url = 'http://127.0.0.1:8080'
-response = requests.get(url)
+response = requests.get(url, timeout=60)
 pp(dict(response.headers))
 
 print(response.headers[ 'Content-Type'])
