@@ -10,5 +10,5 @@ payload = {
     "id": 1
 }
 
-response = requests.post(url, json=payload)
+response = requests.post(url, json=payload, timeout=60)
 print(response.json())
